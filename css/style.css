@@ -1,0 +1,63 @@
+.container-fluid{
+	font-family: corbel !important;
+}
+
+.navbar-brand{
+	font-family: lato !important;
+}
+
+.navbar-nav a:hover{
+    text-decoration: underline; 
+}
+
+#customer-says{
+	    height: 800px;
+        background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(https://www.helpguide.org/wp-content/uploads/fast-foods-candy-cookies-pastries-768.jpg);
+        background-size: 100% 100%;
+}
+
+#book-table{
+	    height: 700px;
+        background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(https://www.feelbetterfitness.nl/wp-content/uploads/2015/07/10718743-healthy-foods-are-on-the-table-in-the-kitchen-Stock-Photo-food.jpg);
+        background-size: 100% 100%;
+}
+
+.main_card:hover{
+        background:  orange;
+        box-shadow: 2px 2px 2px black;
+ }
+
+ .item:hover h5{
+ 	color: orange;
+ }
+
+ .f-name:hover{
+ 	color: orange;
+ 	transform: translate(20px);
+    transition: 1s;
+ }
+
+ .social-link i:hover{
+    color: grey;
+ }
+
+#top{
+    position: fixed !important;
+    bottom: 14px;
+    right: 20px;
+}
+
+#top i{
+    font-size: 35px;
+}
+
+ @media only screen and (min-width:1024px){
+ .f-a ul{
+ 	display: block;
+ }
+
+ .f-a ul li{
+ 	display: inline;
+ 	margin: 0px 48px 0px 0px;
+ }
+ }
